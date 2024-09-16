@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable Video Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Image in the top-left corner -->
+    <img src="images/Unicorn riding Llama.png" alt="Top Left Image" class="top-left-image">
+
+    <!-- Full-screen section with the first video and interactive image -->
+    <section class="fullscreen-section">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="images/Untitled design.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="container">
+            <img src="images/Untitled design.png" alt="weird-image" class="weird-image" id="weirdImage">
+        </div>
+
+        <!-- Clickable images at the bottom corners of the first video -->
+        <a href="https://x.com/url_memecoin" class="bottom-left-link">
+            <img src="images/xx.png" alt="Bottom Left" class="bottom-left-image">
+        </a>
+        <a href="https://t.me/+Ej08i_VeUrc0NDNk" class="bottom-right-link">
+            <img src="images/Unicorn riding Llama (1).png" alt="Bottom Right" class="bottom-right-image">
+        </a>
+    </section>
+
+    <!-- Banner section with the banner video -->
+    <section class="banner-section">
+        <video autoplay muted loop id="bannerVideo">
+            <source src="images/Play.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Scrollable section with the second video -->
+    <section class="scrollable-section">
+        <video autoplay muted loop id="secondVideo">
+            <source src="images/$URL.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
